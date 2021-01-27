@@ -36,10 +36,10 @@ Welcome Page
         -Form for getting user choices and info 
             -name 
             -character 
-            -id
-            -health
-            -food 
-            -obstacles cleared 
+            -id -auto
+            -health -atuo
+            -food -auto
+            -obstacles cleared -auto
         -submit button 
     JS 
         -Gather info from submit button
