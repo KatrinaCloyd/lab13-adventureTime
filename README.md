@@ -6,7 +6,7 @@ You have been shrunk by your zany scientist dad and now you need to make it back
 
 
 SET DATA 
-    -user data
+    -user data (will be generated on form page)
         -name 
         -character 
         -id
@@ -15,7 +15,7 @@ SET DATA
         -num of friends 
         -obstacles cleared 
     
-    -obstacles (three of them)
+XXX -obstacles (three of them)
     (rain, lawnmower, racoons, dog)
         -id: name
         -title: page header 
@@ -32,22 +32,23 @@ SET DATA
 Welcome Page 
     HTML 
     Style Header and Over all Page look
-        -Place holder for user info in header 
         -Form for getting user choices and info 
             -name 
             -character 
-            -id -auto
-            -health -atuo
+            -health -auto
             -food -auto
             -obstacles cleared -auto
         -submit button 
     JS 
+        X-Get Stats from LS function 
+        X-Set Stats from LS function
         -Gather info from submit button
             -create USER and save to LS 
             -redirect to Map Page 
 
 Map page 
     HTML   
+    later -Place holder for user info in header 
     Copy Style and Page feel from welcome 
         -Info / Stats in Header 
         -Welcome and base story 
