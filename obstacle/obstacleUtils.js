@@ -33,6 +33,9 @@ for (let choice of obstacle.choices) {
     form.append(radio, span);
 }
 
+const chResult = document.getElementById('choice-results');
+const goBtn = document.getElementById('goButton');
+
 submitBtn.addEventListener('click', () => {
     const formData = new FormData(form);
     const selectionId = formData.get('choices');
@@ -41,7 +44,11 @@ submitBtn.addEventListener('click', () => {
     user.health += choiceArr.health;
     user.snacks += choiceArr.snacks;
     setUserStats(user);
-    //alert window with choice message 
-    window.location = '../map/index.html';
+    chResult.textContent = choiceArr.message;
+    goBtn.style.display = 'block';
+    submitBtn.disabled = 'true';
 });
 
+goBtn.addEventListener('click', () => {
+    window.location = '../map/index.html';
+});
