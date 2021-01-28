@@ -33,12 +33,7 @@ for (let choice of obstacle.choices) {
     form.append(radio, span);
 }
 
-//const btn = document.createElement('button');
-//btn.textContent = 'Give It A Go!';
-//form.appendChild(btn);
-
 submitBtn.addEventListener('click', () => {
-    //will need to calc users new stats here 
     const formData = new FormData(form);
     const selectionId = formData.get('choices');
     const choiceArr = findById(selectionId, obstacle.choices);
@@ -46,6 +41,7 @@ submitBtn.addEventListener('click', () => {
     user.health += choiceArr.health;
     user.snacks += choiceArr.snacks;
     setUserStats(user);
+    //alert window with choice message 
     window.location = '../map/index.html';
 });
 

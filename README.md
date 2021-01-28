@@ -78,14 +78,14 @@ OBSTACLE page
         X-get selected obstacle from URL
         X-render obstacle to page 
             X-header 
-      !      -image
+  !         -image
             X-story black 
             X-choices
             X-submit button
-      !      -form button listener 
-                -up date user stats based on choice
-                -set USER back to LS 
-                -redirect back to map page 
+            X-form button listener 
+                X-up date user stats based on choice
+                X-set USER back to LS 
+                X-redirect back to map page 
 
 RESULTS page 
     HTML 
