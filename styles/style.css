@@ -21,7 +21,7 @@ main {
 
 section {
     width: 1000px;
-    max-width: 80%;
+    max-width: 70%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -50,6 +50,7 @@ footer {
 h2 {
     font-size: 2rem;
     font-weight: 500; 
+    margin: 2px;
 }
 h3{
     margin: 15px;
@@ -80,9 +81,13 @@ p {
 
 form{
     font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
-#yard-img{
-    width: 500px;
+
+img{
+    max-width: 500px;
 }
   
 footer {
@@ -104,6 +109,23 @@ footer {
     height: 90px;
 }
 
+form p {
+    text-align: center;
+}
+
+input[type=radio]:checked + img {
+    border: solid 5px #61af08;
+    border-radius: 12px;
+}
+
+#character-choices{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 5px;
+    text-align: center;
+}
 
 #headerStats{
     display: flex;
@@ -111,4 +133,13 @@ footer {
     justify-content: flex-end;
     align-items: center;
     box-shadow: var(--shadow);
+}
+label{
+    text-align: center;
+}
+button{
+    padding: 10px;
+    font-family: 'Londrina Solid', sans-serif;
+    font-size: 1.2rem;
+    box-shadow: 5px 5px 10px 1px rgba(0,0,0,.8);
 }
