@@ -78,6 +78,9 @@ p {
 form{
     font-weight: 500;
 }
+#yard-img{
+    width: 500px;
+}
   
 footer {
     font-weight: 300;
@@ -90,21 +93,3 @@ footer {
     box-shadow: var(--shadow);
 }
   
-  @keyframes pulse {
-    20% {
-      transform: rotate3d(-10, -10, -10, 50deg) scale(1.2);
-    }
-
-    40% {
-        transform: rotate3d(10, 10, -10, 50deg) scale(1);
-    }
-
-    60% {
-        transform: rotate3d(-10, 10, 10, 50deg) scale(1.2);
-      }
-
-    80% {
-        transform: rotate3d(10, 10, 10, 50deg) scale(1);
-    }
-
-  }

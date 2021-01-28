@@ -1,19 +1,13 @@
 # TIME TO MAKE A PLAN
 
-Haha! I Shrunk You! Adventure
-
-You have been shrunk by your zany scientist dad and now you need to make it back home thorugh the treaterous back yard. 
-
-
-SET DATA 
-    -user data (will be generated on form page)
-        -name 
-        -character 
-        -id
-        -health
-        -food 
-        -num of friends 
-        -obstacles cleared 
+X-SET DATA 
+    X-user data (will be generated on form page)
+        X-name 
+        X-character 
+        X-health
+        X-food 
+        X-num of friends 
+        X-obstacles cleared 
     
 XXX -obstacles (three of them)
     (rain, lawnmower, racoons, dog)
@@ -31,14 +25,14 @@ XXX -obstacles (three of them)
 
 Welcome Page 
     HTML 
-    Style Header and Over all Page look
-        -Form for getting user choices and info 
-            -name 
-            -character 
-            -health -auto
-            -food -auto
-            -obstacles cleared -auto
-        -submit button 
+    ! Style Header and Over all Page look
+        X-Form for getting user choices and info 
+            X-name 
+            X-character 
+            X-health -auto
+            X-food -auto
+            X-obstacles cleared -auto
+        X-submit button 
     JS 
         X-Get Stats from LS function 
         X-Set Stats from LS function
@@ -49,10 +43,10 @@ Welcome Page
 Map page 
     HTML   
     later -Place holder for user info in header 
-    Copy Style and Page feel from welcome 
+    X Copy Style and Page feel from welcome 
         -Info / Stats in Header 
-        -Welcome and base story 
-        -Main Map Image 
+        X-Welcome and base story 
+        X-Main Map Image 
         -links to the 3 obstacles 
         -only enable one at a time 
         -check off completed as they are done 
