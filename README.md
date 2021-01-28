@@ -76,13 +76,13 @@ OBSTACLE page
         X-get USER data from LS 
         X-render to in user info to Header
         X-get selected obstacle from URL
-        -render obstacle to page 
-            -header 
-            -image
-            -story black 
-            -choices
-            -submit button
-            -form button listener 
+        X-render obstacle to page 
+            X-header 
+      !      -image
+            X-story black 
+            X-choices
+            X-submit button
+      !      -form button listener 
                 -up date user stats based on choice
                 -set USER back to LS 
                 -redirect back to map page 
