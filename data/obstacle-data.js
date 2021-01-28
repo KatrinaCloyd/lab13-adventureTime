@@ -20,7 +20,7 @@ const rain = {
         friends: 0,
     },
     {
-        id: 'crideCookie',
+        id: 'rideCookie',
         description: 'You have a huge stale cookie from the trash you were hoping to save for snacks. Maybe you can all float on that!',
         message: 'It floated well enough to get you all out of the puddle, but now you\'ve got no snacks for later.',
         health: 0,

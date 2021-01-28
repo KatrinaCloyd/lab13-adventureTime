@@ -42,40 +42,40 @@ Welcome Page
 
 Map page 
     HTML   
-    later -Place holder for user info in header 
-    XCopy Style and Page feel from welcome 
-  !     -Info / Stats in Header 
+  !     Over all Page look
+        X Copy Style and Page feel from welcome 
+        X Style Header from User Info
         X-Welcome and base story 
         X-Main Map Image 
         X-links to the 3 obstacles 
-        -only enable one at a time 
-        -check off completed as they are done 
+  !     -only enable one at a time 
+  !     -check off completed as they are done 
 
     JS 
-        -get USER data from LS 
-        -redirect to results if 
+        X-get USER data from LS 
+  !     -redirect to results if 
             -health is <= 0
             -all obstacles are complete 
-        -render user info to Header
-        -render links to obstacles on page from data 
-            -completed tasks should look different
-            -completed tasks should be disabled 
+        X-render user info to Header
+        X-render links to obstacles on page from data 
+  !     -completed tasks should look different
+  !     -completed tasks should be disabled 
 
-OBSTACLE page (varies depending on current ob selection) 
+OBSTACLE page
     HTML 
-    Copy Style and Page feel from welcome 
-        -Info / Stats in Header 
-        -place holder for: (or just a single div)
-            -header 
-            -image
-            -story black 
-            -choices
-            -submit button
+    X Copy Style and Page feel from welcome 
+        X -Info / Stats in Header 
+        X-place holder for: (or just a single div)
+            X-header 
+            X-image
+            X-story blaok 
+            X-choices
+            X-submit button
 
     JS 
-        -get USER data from LS 
-        -render to in user info to Header
-        -get selected obstacle from URL
+        X-get USER data from LS 
+        X-render to in user info to Header
+        X-get selected obstacle from URL
         -render obstacle to page 
             -header 
             -image
