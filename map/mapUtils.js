@@ -4,7 +4,24 @@ import obstacles from '../data/obstacle-data.js';
 
 const ul = document.querySelector('ul');
 const user = getUserStats();
+
 renderUserHdr(user);
+
+if (user.health <= 0) {
+    window.location = '../results/index.html';
+}
+
+let completedAllQuests = true;
+
+for (let obs of obstacles) {
+    if (!user.completed[obs.id]) {
+        completedAllQuests = false;
+    }
+}
+
+if (completedAllQuests) {
+    window.location = '../results/index.html';
+}
 
 for (let obstacle of obstacles) {
     const li = document.createElement('li');

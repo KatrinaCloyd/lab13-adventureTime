@@ -23,9 +23,9 @@ XXX -obstacles (three of them)
             -snacks: what each one does to user food
         }, {}, {}]
 
-Welcome Page 
-    HTML 
-  !     Style Header and Over all Page look
+X Welcome Page 
+    X HTML 
+        X-Style Header and Over all Page look
         X-Form for getting user choices and info 
             X-name 
             X-character 
@@ -33,7 +33,7 @@ Welcome Page
             X-food -auto
             X-obstacles cleared -auto
         X-submit button 
-    XJS 
+    X JS 
         X-Get Stats from LS function 
         X-Set Stats from LS function
         X-Gather info from submit button
@@ -49,13 +49,13 @@ Map page
         X-Main Map Image 
         X-links to the 3 obstacles 
   !     -only enable one at a time 
-  !     -check off completed as they are done 
+        X-check off completed as they are done 
 
     JS 
         X-get USER data from LS 
-  !     -redirect to results if 
-            -health is <= 0
-            -all obstacles are complete 
+        X-redirect to results if 
+            X -health is <= 0
+            X -all obstacles are complete 
         X-render user info to Header
         X-render links to obstacles on page from data 
   !     -completed tasks should look different
@@ -78,7 +78,7 @@ OBSTACLE page
         X-get selected obstacle from URL
         X-render obstacle to page 
             X-header 
-  !         -image
+            X -image
             X-story black 
             X-choices
             X-submit button
@@ -86,6 +86,7 @@ OBSTACLE page
                 X-up date user stats based on choice
                 X-set USER back to LS 
                 X-redirect back to map page 
+        X-get choice message to display on page 
 
 RESULTS page 
     HTML 

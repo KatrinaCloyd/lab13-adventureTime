@@ -43,6 +43,7 @@ submitBtn.addEventListener('click', () => {
     user.friends += choiceArr.friends;
     user.health += choiceArr.health;
     user.snacks += choiceArr.snacks;
+    user.completed[obstId] = true;
     setUserStats(user);
     chResult.textContent = choiceArr.message;
     goBtn.style.display = 'block';
