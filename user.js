@@ -1,4 +1,4 @@
-import { setUserStats, getUserStats } from './utils/storageUtils.js';
+import { setUserStats } from './utils/storageUtils.js';
 
 const form = document.querySelector('form');
 

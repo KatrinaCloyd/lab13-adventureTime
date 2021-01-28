@@ -25,7 +25,7 @@ XXX -obstacles (three of them)
 
 Welcome Page 
     HTML 
-    ! Style Header and Over all Page look
+  !     Style Header and Over all Page look
         X-Form for getting user choices and info 
             X-name 
             X-character 
@@ -33,30 +33,30 @@ Welcome Page
             X-food -auto
             X-obstacles cleared -auto
         X-submit button 
-    JS 
+    XJS 
         X-Get Stats from LS function 
         X-Set Stats from LS function
-        -Gather info from submit button
-            -create USER and save to LS 
-            -redirect to Map Page 
+        X-Gather info from submit button
+            X-create USER and save to LS 
+            X-redirect to Map Page 
 
 Map page 
     HTML   
     later -Place holder for user info in header 
-    X Copy Style and Page feel from welcome 
-        -Info / Stats in Header 
+    XCopy Style and Page feel from welcome 
+  !     -Info / Stats in Header 
         X-Welcome and base story 
         X-Main Map Image 
-        -links to the 3 obstacles 
+        X-links to the 3 obstacles 
         -only enable one at a time 
         -check off completed as they are done 
 
     JS 
         -get USER data from LS 
         -redirect to results if 
-            -healthis <= 0
+            -health is <= 0
             -all obstacles are complete 
-        -render to in user info to Header
+        -render user info to Header
         -render links to obstacles on page from data 
             -completed tasks should look different
             -completed tasks should be disabled 
