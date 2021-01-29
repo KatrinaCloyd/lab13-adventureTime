@@ -115,9 +115,13 @@ form p {
 }
 
 input[type=radio]:checked + img {
-    border: solid 5px #61af08;
-    border-radius: 12px;
+    outline: #61af08 solid 5px;
+    outline-offset: -5px;
 }
+.input-hidden {
+    position: absolute;
+    left: -9999px;
+  }
 
 #character-choices{
     display: flex;
