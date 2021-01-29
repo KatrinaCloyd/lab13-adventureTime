@@ -16,7 +16,7 @@ const resultImg = document.getElementById('result-image');
 
 
 resultHeader.textContent = resultInfo.title;
-resultMsg.textContent = resultInfo.message;
+resultMsg.textContent = `${user.name}, you tiny ${user.character}! ${resultInfo.message}`;
 resultImg.src = resultInfo.image;
 
 const resetBtn = document.getElementById('reset');
