@@ -30,7 +30,7 @@ const meh = {
     id: 5,
     title: 'Meh.. you did okay...',
     message: 'Well, you made it home. You aren\'t super healthy or super sick. Whatever, I guess I\'m glad you\'re home.',
-    image: '../assets/sick.png'
+    image: '../assets/sick.jpg'
 };
 
 const sickAllFriends = {
@@ -51,7 +51,7 @@ const sick = {
     id: 8,
     title: 'Sick and Missing Friends',
     message: 'You\'ve managed to make it back to the house! You\'re in really bad shape and you lost some friends along the way. So... good for you...? ',
-    image: '../assets/sick.png'
+    image: '../assets/sick.jpg'
 };
 
 const results = [
