@@ -22,7 +22,7 @@ const healthySomeFriends = {
 const healthyNoFriends = {
     id: 4,
     title: 'Healthy But No Friends',
-    message: 'You\'ve managed to make it back to the house in good health! But You\'ve lost all of your friends in the process... I\'ve created a self cenetered tiny monster. maybe we will just leave you small.',
+    message: 'You\'ve managed to make it back to the house in good health! But you\'ve lost all of your friends in the process... I\'ve created a self cenetered tiny monster. Maybe we will just leave you small.',
     image: '../assets/noFriends.jpg'
 };
 

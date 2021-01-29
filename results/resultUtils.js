@@ -11,12 +11,12 @@ renderUserHdr(user);
 const resultInfo = findById(userResult, results);
 
 const resultHeader = document.querySelector('h2');
-const resultMsg = document.querySelector('h3');
+const resultMsg = document.getElementById('resultMsg');
 const resultImg = document.getElementById('result-image');
 
 
 resultHeader.textContent = resultInfo.title;
-resultMsg.textContent = resultInfo.title;
+resultMsg.textContent = resultInfo.message;
 resultImg.src = resultInfo.image;
 
 const resetBtn = document.getElementById('reset');
