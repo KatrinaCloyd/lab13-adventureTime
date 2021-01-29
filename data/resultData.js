@@ -15,7 +15,7 @@ const healthyAllFriends = {
 const healthySomeFriends = {
     id: 3,
     title: 'Healthy With Some Friends',
-    message: 'You\'ve managed to make it back to the house in good health! But You\'ve lost all of your friends in the process... I\'ve created a self cenetered tiny monster.',
+    message: 'You\'ve managed to make it back to the house in good health! But you\'ve lost a few of your friends in the process... At least you\'re home!',
     image: '../assets/someDead.jpg'
 };
 
