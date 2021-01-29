@@ -26,8 +26,18 @@ if (completedAllQuests) {
 for (let obstacle of obstacles) {
     const li = document.createElement('li');
     const a = document.createElement('a');
+    const icon = document.createElement('img');
+    icon.classList = 'icon';
+    icon.src = `../assets/${obstacle.id}Icon.png`;
+    icon.href = `../obstacle/?id=${obstacle.id}`;
     a.textContent = obstacle.id;
+    a.style.display = 'block';
     a.href = `../obstacle/?id=${obstacle.id}`;
-    li.append(a);
+    if (user.completed[obstacle.id] === true) {
+        icon.src = `../assets/DONE.png`;
+
+    }
+    icon.append(a);
+    li.append(icon, a);
     ul.append(li);
 }

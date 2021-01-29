@@ -3,6 +3,10 @@ const rain = {
     title: 'Uhh oh, looks like it\'s starting to rain!',
     image: '../assets/dad.png',
     story: 'It has started raining, and it looks like you are right in the middle of the biggest puddle in the backyard. You\'ll never get out of the puddle in time, it\'s too big. But that oaf you are with can\'t swim. What do you do?',
+    map: {
+        top: '89%',
+        left: '44%'
+    },
     choices: [{
         id: 'swim',
         description: 'Wait out the rain, it never rains enough to get too deep. If it does... you know how to swim!',
@@ -125,10 +129,10 @@ const dog = {
 };
 
 const obstacles = [
-    rain,
     lawnmower,
+    rain,
     raccoon,
-    dog,
+    dog
 ];
 
 export default obstacles; 
