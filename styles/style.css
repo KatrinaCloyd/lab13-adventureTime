@@ -1,25 +1,14 @@
 
 body {
-    /* https://coolors.co/generate and click export -> scss to get the colors to copy and paste below*/
-    /* --color1: hsla(349, 69%, 76%, 1);
-    --color2: hsla(207, 67%, 44%, 1);
-    --color3: hsla(200, 61%, 56%, 1);
-    --color4: hsla(187, 41%, 94%, 1);
-    --color5: hsla(170, 28%, 95%, 1); */
-/* 
-    /* --color1: hsla(45, 86%, 83%, 1);
-    --color2: hsla(135, 65%, 98%, 1);
-    --color3: hsla(315, 37%, 86%, 1);
-    --color4: hsla(45, 73%, 98%, 1);
-    --color5: hsla(224, 40%, 79%, 1); */
-    
     --header-height: 80px;
     --shadow: 0px 10px 20px -12px rgba(0,0,0,0.45);
     --gutter: 30px;
     --footer-height: 25px;
-    
-    font-family: 'Titillium Web', sans-serif;
-    background-color: var(--color2);
+    background-image: url('../assets/grassBackground.jpg');
+    background-position: fill;
+    background-repeat: no-repeat;
+    font-family: 'Londrina Solid', sans-serif;
+    letter-spacing: .1em;
 }
 
 main {
@@ -31,24 +20,21 @@ main {
 }
 
 section {
-    background-color: var(--color5);
     width: 1000px;
-    max-width: 80%;
+    max-width: 70%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: var(--gutter);
-    padding-bottom: var(--gutter);
-    margin-top: var(--gutter);
+    padding: 20px;
     margin-bottom: var(--gutter);
     border: solid 2px var(--color1);
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
-header {
+.homeHdr {
     display: flex;
-    justify-content: flex-end;
-    background-color: var(--color3);
+    justify-content: center;
     height: var(--header-height);
     box-shadow: var(--shadow);
 }
@@ -56,14 +42,19 @@ header {
 footer {
     display: flex;
     justify-content: flex-end;
-    background-color: var(--color3);
     box-shadow: var(--shadow);
 }
-
+h1{
+    margin: 5px;
+}
 
 h2 {
-    font-size: 1.8rem;
-    font-weight: bold;
+    font-size: 2rem;
+    font-weight: 500; 
+    margin: 2px;
+}
+h3{
+    margin: 15px;
 }
 
 .gutter-right {
@@ -79,41 +70,103 @@ header img {
 }
 
 
-
 content {
     width: 80%;
 }
 
 p {
-    margin: var(--gutter);
+    margin: 10px;
+    font-weight: 200;
+    font-size: 1rem;
+}
+
+form{
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+img{
+    max-width: 500px;
 }
   
 footer {
+    font-weight: 300;
     position: fixed;
     width: 100%;
     bottom: 0;
     height: var(--footer-height);
     display: flex;
     justify-content: flex-end;
-    background-color: var(--color3);
     box-shadow: var(--shadow);
 }
-  
-  @keyframes pulse {
-    20% {
-      transform: rotate3d(-10, -10, -10, 50deg) scale(1.2);
-    }
 
-    40% {
-        transform: rotate3d(10, 10, -10, 50deg) scale(1);
-    }
+.characterPic{
+    width: 150px;
+}
+.charIcon{
+    width: 90px;
+    height: 90px;
+}
 
-    60% {
-        transform: rotate3d(-10, 10, 10, 50deg) scale(1.2);
-      }
+form p {
+    text-align: center;
+}
 
-    80% {
-        transform: rotate3d(10, 10, 10, 50deg) scale(1);
-    }
-
+input[type=radio]:checked + img {
+    outline: #61af08 solid 5px;
+    outline-offset: -5px;
+}
+.input-hidden {
+    position: absolute;
+    left: -9999px;
   }
+
+#character-choices{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 5px;
+    text-align: center;
+}
+
+#headerStats{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    box-shadow: var(--shadow);
+}
+label{
+    text-align: center;
+}
+button{
+    padding: 10px;
+    margin: 5px;
+    font-family: 'Londrina Solid', sans-serif;
+    font-size: 1.2rem;
+    box-shadow: 5px 5px 10px 1px rgba(0,0,0,.8);
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+}
+
+li{
+    list-style-type: none;
+    padding: 20px;
+    text-align: center;
+}
+
+#icon{
+    max-width: 15px;
+}
+
+.disable{
+    pointer-events: none;
+    text-decoration: none;
+    color: grey;
+}
