@@ -159,3 +159,9 @@ li{
 #icon{
     max-width: 15px;
 }
+
+.disable{
+    pointer-events: none;
+    text-decoration: none;
+    color: grey;
+}

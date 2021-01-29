@@ -16,14 +16,14 @@ const healthySomeFriends = {
     id: 3,
     title: 'Healthy With Some Friends',
     message: 'You\'ve managed to make it back to the house in good health! But You\'ve lost all of your friends in the process... I\'ve created a self cenetered tiny monster.',
-    image: '../assets/XXX.png'
+    image: '../assets/someDead.jpg'
 };
 
 const healthyNoFriends = {
     id: 4,
     title: 'Healthy But No Friends',
-    message: 'You\'ve managed to make it back to the house in good health! But You\'ve lost all of your friends in the process... I\'ve created a self cenetered tiny monster.',
-    image: '../assets/XXX.png'
+    message: 'You\'ve managed to make it back to the house in good health! But You\'ve lost all of your friends in the process... I\'ve created a self cenetered tiny monster. maybe we will just leave you small.',
+    image: '../assets/noFriends.jpg'
 };
 
 const meh = {
@@ -35,7 +35,7 @@ const meh = {
 
 const sickAllFriends = {
     id: 6,
-    title: 'Siak But With All Your Friends!',
+    title: 'Sick But With All Your Friends!',
     message: 'You\'ve managed to make it back to the house! You aren\'t in great shape, but you watched out for your firends, so that counts for something! Snacks on teh other hand didn\'t matter at all.',
     image: '../assets/alive.jpg'
 };
@@ -44,7 +44,7 @@ const sickAlone = {
     id: 7,
     title: 'Sick and Alone',
     message: 'You\'ve managed to make it back to the house! But your\'re sick and you\'ve lost all of your friends in the process... you may need to rethink your decision making. ',
-    image: '../assets/XXX.png'
+    image: '../assets/sickAlone.jpg'
 };
 
 const sick = {

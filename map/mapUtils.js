@@ -35,7 +35,7 @@ for (let obstacle of obstacles) {
     a.href = `../obstacle/?id=${obstacle.id}`;
     if (user.completed[obstacle.id] === true) {
         icon.src = `../assets/DONE.png`;
-
+        a.classList = 'disable';
     }
     icon.append(a);
     li.append(icon, a);
